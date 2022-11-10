@@ -1,4 +1,4 @@
-# PHP SDK for Unlimit API v3
+# PHP SDK for Unlimit API v3 with Guzzle7 support
 The Unlimit API uses HTTP verbs and a RESTful endpoint structure. Request and response payloads are formatted as JSON.
 
 - API version: 3.0
