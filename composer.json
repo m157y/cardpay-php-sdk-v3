@@ -1,7 +1,6 @@
 {
-    "name": "cardpay/php-sdk-v3",
-    "version": "3.41.3",
-    "description": "PHP SDK for Unlimint API v3",
+    "name": "m157y/cardpay-php-sdk-v3",
+    "description": "PHP SDK for Unlimint API v3 with Guzzle7 support",
     "keywords": [
         "unlimint",
         "api",
@@ -15,7 +14,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2||^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
