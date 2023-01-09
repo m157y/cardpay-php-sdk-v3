@@ -41,7 +41,7 @@ class RecurringScheduledTestCase extends BaseTestCase
     /**
      * @throws ApiException
      */
-    public function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
 
