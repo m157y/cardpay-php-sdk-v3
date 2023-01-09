@@ -1,7 +1,6 @@
 {
-    "name": "cardpay/php-sdk-v3",
-    "version": "3.89.16",
-    "description": "PHP SDK for Unlimit API v3",
+    "name": "m157y/cardpay-php-sdk-v3",
+    "description": "PHP SDK for Unlimit API v3 with PHP8",
     "keywords": [
         "unlimit",
         "api",
@@ -11,7 +10,7 @@
     "homepage": "https://integration.unlimit.com",
     "license": "MIT",
     "require": {
-        "php": ">=7.2.5",
+        "php": "^8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
