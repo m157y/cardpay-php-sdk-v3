@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="./vendor/autoload.php" colors="true" stopOnFailure="false">
+<phpunit
+  bootstrap="./vendor/autoload.php"
+  colors="true"
+  stopOnFailure="false"
+  beStrictAboutTestsThatDoNotTestAnything="false"
+>
     <testsuites>
         <testsuite name="PhpSdkCardpayApiV3TestSuite">
             <directory suffix=".php">./test/</directory>
             <exclude>./test/BaseTestCase.php</exclude>
-            <exclude>./test/TestSuiteListener.php</exclude>
+            <exclude>./test/AfterTestsHook.php</exclude>
             <exclude>./test/recurring/scheduled/RecurringScheduledTestCase.php</exclude>
         </testsuite>
     </testsuites>
-    <listeners>
-        <listener class="Cardpay\test\TestSuiteListener" file="./test/TestSuiteListener.php"/>
-    </listeners>
+
+    <extensions>
+        <extension class="Cardpay\test\AfterTestsHook" />
+    </extensions>
 </phpunit>
