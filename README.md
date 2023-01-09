@@ -21,11 +21,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/cardpay/php-sdk-v3.git"
+      "url": "https://github.com/m157y/cardpay-php-sdk-v3.git"
     }
   ],
   "require": {
-    "cardpay/php-sdk-v3": "*@dev"
+    "m157y/cardpay-php-sdk-v3": "^3.48"
   }
 }
 ```
