@@ -1,4 +1,4 @@
-# PHP SDK for Unlimint API v3 with Guzzle7 support
+# PHP SDK for Unlimint API v3 with PHP8 and Guzzle7 support
 The Unlimint API uses HTTP verbs and a RESTful endpoint structure. Request and response payloads are formatted as JSON.
 
 - API version: 3.0
